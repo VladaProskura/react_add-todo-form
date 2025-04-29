@@ -10,7 +10,6 @@ type Props = {
 //        TypeScript буде перевіряти, щоб об'єкт
 //        `todo`, переданий в цей компонент, відповідав структурі типу `Todo`.
 
-
 export const TodoInfo: React.FC<Props> = ({ todo }) => {
   const { id, title, completed, user } = todo;
 

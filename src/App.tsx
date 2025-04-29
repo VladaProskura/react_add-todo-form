@@ -61,7 +61,7 @@ export const App: React.FC = () => {
     <div className="App">
       <h1>Add todo form</h1>
 
-      <form action="/api/todos" method="POST" onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <div className="field">
           <input
             type="text"
